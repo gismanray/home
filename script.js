@@ -1,4 +1,4 @@
-var size = 12;
+var size = 24;
 window.onload = main;
 function main() {
     animate();
