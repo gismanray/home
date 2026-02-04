@@ -7,7 +7,7 @@ function main() {
 function animate() {
     size += 2;
     if (size > 72) { size = 12; }
-    document.getElementById('box').innerText = size;
+    //document.getElementById('box').innerText = size;
     document.getElementById('ttl').style.fontSize = size+'pt';
     timeout = setTimeout(animate, 250);
 }
